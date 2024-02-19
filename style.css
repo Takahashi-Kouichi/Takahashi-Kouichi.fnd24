@@ -1,0 +1,60 @@
+.haikei {
+  background-color: rgba(255, 255, 255, 0.562);           /* 背景色 */
+   background-image: url("hana1.jpeg");                  /* 画像 */
+   background-repeat: no-repeat;
+   background-position: center center;               /* 縦横中央*/
+   background-size: cover;                         /* 全画面 */
+} 
+
+
+#wordDisplay {
+  text-align: left;
+  font-size: 40px;
+} 
+
+
+div {
+  display: grid;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+ 
+
+p {
+  width: auto;
+  font-weight: bold;
+  height: 170px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+
+.center-btn {
+  height: 150px;
+}
+
+
+.btn {
+  color: #fff;
+  font-size: 16px;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  background: #333;
+  padding: 18px 30px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: .3s;
+}
+
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
